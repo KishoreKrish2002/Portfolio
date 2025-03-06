@@ -1,0 +1,108 @@
+body {
+  background-color: red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid rgba(255, 69, 69, 0.2);
+}
+
+.navbar-brand {
+  color: red !important;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.1);
+}
+
+.hero {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  color: white;
+  text-align: left;
+  padding: 80px 0;
+}
+
+.download-btn {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+}
+
+.section-title {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.project-card,
+.achievement-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.project-card:hover,
+.achievement-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skill-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-icon {
+  font-size: 40px;
+  color: red;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
